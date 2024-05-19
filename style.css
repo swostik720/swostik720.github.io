@@ -1,0 +1,58 @@
+body, html{
+  height: 100%;
+}
+
+.backgroungImage{
+  background-image: url('bgimage.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+
+.top{
+  left: 37%;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  margin-top: 100px;
+}
+
+.bottom{
+  left: 44%;
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  margin-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+  margin: 5px;
+}
+
+#social-links > a:hover{
+  background: purple;
+  color: #fff;
+  padding: .5rem;
+  transition: all .3s ease-in-out;
+}
+
+hr{
+  margin: auto;
+  width: 40%;
+}
+
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
